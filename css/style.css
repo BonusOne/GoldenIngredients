@@ -1,0 +1,453 @@
+html {
+	padding: 0;
+	margin: 0;
+    height: 100%;
+}
+
+body {
+	background-color: #fafafa;
+	color: #2E3192;
+	font-family: "Helvetica Neue", Helvetica, Century Gothic, Arial, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+    height: 100%;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+/** {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}*/
+
+img {
+	border: none;
+}
+
+a {
+	color: #2E3192;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2E3192;
+	text-decoration: none;
+}
+
+h1, h2, h3, h1 a, h2 a, h3 a {
+	color: #2E3192;
+	margin: 2px 0 5px 0;
+    font-weight: 700;
+}
+
+div.clearfix {
+	display: block;
+    clear: both;
+}
+
+.clearbig {
+    height: 70px;
+}
+
+/*img[src$=".gif"], img[src$=".png"], img[src$=".jpg"], img[src$=".jpeg"] {
+    image-rendering: -moz-crisp-edges;
+    image-rendering:   -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}*/
+
+
+
+
+
+
+#logins {
+    height: 100%;
+    max-width: 1037px;
+    margin: 0 auto;
+    padding: 6% 0 0 0;
+    position: relative;
+}
+
+.LogErr {
+    margin: 0 auto 15px;
+    border: 1px solid #fd9f9f;
+    background-color: rgba(000,000,000,0.07);
+    color: #F00;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+}
+
+.toolLogin {
+    /*position: absolute;*/
+    margin: 5% auto 0;
+    padding: 25px 25px;
+    border: 1px solid #e7e7e7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 400px;
+    color: #4a4a4a;
+}
+
+.InputLoginBox span, .InputPassBox span {
+    font-size: 11px;
+    color: #9b9b9b;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.InputLoginBox input, .InputPassBox input {
+    width: 100%;
+    padding: 10px 12px 10px 12px;
+    border: 1px solid #e7e7e7;
+    color: #575757;
+    font-size: 14px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.InputLoginBox input:focus, .InputPassBox input:focus {
+    outline: none;
+}
+
+#LoginForm button {
+    background-color: #2e3192;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+#LoginForm button:focus {
+    outline: none;
+}
+
+a.indexEnters {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #4a4a4a!important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.loginfoot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2E3192;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+.loginfoot .author {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.admin .CookiesBox {
+    bottom: 0;
+}
+
+body.play .CookiesBox {
+    bottom: 0px;
+}
+
+.CookiesBox {
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #FFF;
+    color: #2E3192;
+    padding: 20px;
+    z-index: 9999;
+    border-top: 1px solid #E9E9E9;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.CookiesBoxIn {
+    position: relative;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.CookiesBoxInLeft {
+    width: 75%;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+}
+
+.CookiesBoxInLeft a {
+    text-decoration: underline;
+}
+
+.CookiesBoxInRight {
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+.CookiesBoxInRight a.CookiesGot {
+    display: block;
+    text-align: center;
+    border: 1px solid #2E3192;
+    color: #2E3192;
+    padding: 7px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    background-color: #FFF;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.CookiesBoxInRight a.CookiesGot:hover, .CookiesBoxInRight a.CookiesGot:focus, .CookiesBoxInRight a.CookiesGot:visited {
+    color: #FFF;
+    background-color: #2E3192;
+}
+
+
+
+
+
+
+
+
+header {
+    padding: 10px 15px 0px;
+    background-color: #FFF;
+    color: #2E3192;
+}
+
+header #LogoA {
+    max-width: 321px;
+    text-align: center;
+}
+
+header #LogoA .Logo {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+body.admin header {
+    background-color: #efefef;
+}
+
+
+
+#Index {
+    padding: 30px 15px;
+}
+
+
+#Foot {
+    color: #FFF;
+    background-color: #2E3192;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 0;
+}
+
+#Foot a, #Foot a:hover, #Foot a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#Foot .FootLogo {
+    text-align: left;
+    height: 25px;
+}
+
+#Foot .FootLogo img {
+    max-height: 100%;
+}
+
+#Foot .FootVisit {
+    text-align: right;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+
+
+
+
+
+nav.adm ul {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 15px 0px;
+    padding: 0;
+}
+
+nav.adm ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+nav.adm #nav-in_a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav.adm .adminHello {
+    font-size: 14px;
+    display: inline-block;
+    margin: 10px 20px;
+    color: #2E3192;
+    float: right;
+}
+
+nav.adm ul a.active li, nav.adm ul a:hover li {
+    background-color: #fafafa;
+    color: #2E3192;
+}
+
+
+
+
+#adminIngredients, #adminUsers, #admin, #adminNutrients, #adminProducts {
+    padding: 30px 0px;
+}
+
+.productsTable th, .NutrientsTable th, .ingredientsTable th, .usersTable th, .mainTable th {
+    background-color: #efefef;
+}
+
+.productsTable i, .NutrientsTable i, .ingredientsTable i, .usersTable i, .mainTable i {
+    font-size: 28px;
+}
+
+.productsTable tr td, .NutrientsTable tr td, .ingredientsTable tr td, .usersTable tr td, .mainTable tr td {
+    line-height: 1.2!important;
+    vertical-align: middle!important;
+}
+
+
+
+
+
+
+.adminMain small {
+    font-weight: 300;
+    font-size: 80%;
+}
+
+.adminMain h3 {
+    font-size: 23px;
+}
+
+.adminMain .buttonAdd {
+    background-color: #2E3192;
+    border-color: #282b8e;
+}
+
+.adminMain .buttonAdd:focus, .adminMain .buttonAdd:hover, .adminMain .buttonAdd:visited {
+    background-color: #2E3192;
+    border-color: #282b8e;
+    outline: none;
+}
+
+.adminMain .buttonApply {
+    background-color: #2E3192;
+    border-color: #282b8e;
+    cursor: pointer;
+}
+
+.adminMain .buttonApply:disabled {
+    background-color: #EEE;
+    border-color: #CCC;
+    cursor: default;
+}
+
+.adminMain .buttonApply:focus {
+    background-color: #2E3192;
+    border-color: #282b8e;
+    outline: none;
+}
+
+.adminMain input:disabled {
+    cursor: not-allowed;
+}
+
+.LogApply {
+    margin: 0 auto 15px;
+    border: 1px solid #3c763d;
+    background-color: rgba(000,000,000,0.07);
+    color: #3c763d;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+
+@media screen 
+  and (max-width: 1200px) { 
+    
+}
+
+@media screen 
+  and (max-width: 768px) { 
+    
+}
